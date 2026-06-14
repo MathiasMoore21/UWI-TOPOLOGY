@@ -1,4 +1,4 @@
-# UWI St. Augustine Campus Network Design and Implementation (Work in Progress)
+# UWI St. Augustine Campus Network Design and Implementation 
 
 ## Overview
 
@@ -40,15 +40,6 @@ A router-based DHCP service was configured to automatically assign IP addresses 
 * RIPv2 was configured to facilitate dynamic routing throughout the internal network.
 * Static routing was implemented where appropriate to provide connectivity to external resources and services.
 
-### Security
-
-Several security mechanisms were implemented throughout the network, including:
-
-* SSH for secure remote administration
-* Switch port security
-* VLAN-based segmentation
-* Controlled access between network segments
-
 ### Server Infrastructure
 
 The network includes internal servers that provide university services, as well as connectivity to externally hosted services.
@@ -62,8 +53,6 @@ The network includes internal servers that provide university services, as well 
 * DHCP
 * RIPv2
 * Static Routing
-* SSH
-* Switch Port Security
 * IP Addressing and Subnetting
 * Hierarchical Network Design
 
@@ -75,9 +64,7 @@ The following tests were performed to verify functionality:
 * Inter-VLAN communication
 * DHCP address assignment
 * Route propagation through RIPv2
-* SSH remote access
 * Server accessibility
-* Port security enforcement
 * Network troubleshooting and validation
 
 ## Skills Demonstrated
